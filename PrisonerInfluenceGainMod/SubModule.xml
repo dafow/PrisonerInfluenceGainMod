@@ -1,7 +1,7 @@
 ﻿<Module>
-  <Name value="Smith Forever" />
-  <Id value="SmithForever" />
-  <Version value="v1.0.3" />
+  <Name value="Prisoner Influence Gain" />
+  <Id value="PrisonerInfluenceGainMod" />
+  <Version value="v1.0.0" />
   <SingleplayerModule value="true" />
   <MultiplayerModule value="false" />
   <DependedModules>
@@ -13,9 +13,9 @@
   </DependedModules>
   <SubModules>
     <SubModule>
-      <Name value="SmithForever" />
-      <DLLName value="SmithForever.dll" />
-      <SubModuleClassType value="SmithForever.ForeverSmithSubModule" />
+      <Name value="PrisonerInfluenceGainMod" />
+      <DLLName value="PrisonerInfluenceGainMod.dll" />
+      <SubModuleClassType value="PrisonerInfluenceGainMod.PrisonerInfluenceGainModSubModule" />
       <Tags>
         <Tag key="DedicatedServerType" value="none" />
         <Tag key="IsNoRenderModeElement" value="false" />
